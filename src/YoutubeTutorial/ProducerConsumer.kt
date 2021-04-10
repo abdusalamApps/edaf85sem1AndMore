@@ -1,4 +1,4 @@
-package SemaphoresTutorial
+package YoutubeTutorial
 
 import java.util.*
 import java.util.concurrent.Semaphore

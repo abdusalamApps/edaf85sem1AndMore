@@ -15,7 +15,7 @@ object RTsemBuffer {
             consumer.interrupt()
             consumer.join()
         } catch (e: InterruptedException) {
-
+            return
         }
         println("\n"+"RTsemBuffer: Execution completed!")
 

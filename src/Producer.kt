@@ -1,4 +1,4 @@
-class Producer(val buffer: Buffer) : Thread() {
+class Producer(private val buffer: Buffer) : Thread() {
     override fun run() {
         var producedData = "";
         try {
@@ -16,7 +16,7 @@ class Producer(val buffer: Buffer) : Thread() {
     }
 }
 
-class Consumer(val buffer: Buffer) : Thread() {
+class Consumer(private val buffer: Buffer) : Thread() {
     override fun run() {
         try {
             sleep(1000)

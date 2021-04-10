@@ -1,11 +1,8 @@
-package SemaphoresTutorial
+package YoutubeTutorial
 
-import SemaphoresTutorial.BankAccount
 import kotlin.Throws
 import java.lang.InterruptedException
 import kotlin.jvm.JvmStatic
-import java.lang.Runnable
-import SemaphoresTutorial.Allowance
 
 object Allowance {
     fun csn(account: BankAccount) {
