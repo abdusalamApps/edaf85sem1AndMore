@@ -1,4 +1,4 @@
-package YoutubeTutorial
+package youtubetutorial.semaphores
 
 import kotlin.Throws
 import java.lang.InterruptedException
